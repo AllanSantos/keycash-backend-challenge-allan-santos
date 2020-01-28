@@ -9,31 +9,31 @@ Banco Relacional Postgres.
 Docker para monstar ambiente.
 
 ---------- Pacotes ------------------
-Express
+-Express
 yarn add Express
 
-Nodemon
+-Nodemon
 yarn add nodemon -D
 
-Sucrase lidando com "import" e "export default"
+-Sucrase lidando com "import" e "export default"
 yarn add sucrase -D
 
-Bcryptjs (Hash de senha)
+-Bcryptjs (Hash de senha)
 yarn add bcryptjs
 
-JWT
+-JWT
 yarn add jsonwebtoken
 
-Sequelize
+-Sequelize
 yarn add sequelize
 
-Sequelize cli
+-Sequelize cli
 yarn add sequelize-cli -Docker
 
-pg pg-hstore
+-pg pg-hstore
 yarn add pg pg-hstore
 
-Yup validação de Dados
+-Yup validação de Dados
 yarn add yup
 
 --------- Comandos Projeto ------------
@@ -45,7 +45,7 @@ yarn dev
 
 ---------------- Banco de Dados --------------------------
 Instalando o Postgres no Docker
-$ docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
+$ docker run --name keycash -e POSTGRES_PASSWORD=docker -p 5434:5432 -d postgres:11
 
 Todos os Containers
 docker ps -a
