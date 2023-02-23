@@ -15,7 +15,7 @@
     "mongoose": "^5.7.14",
     "pg": "^7.14.0",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.2",
+    "sequelize": "^6.28.2",
     "yup": "^0.27.0"
   },
   "devDependencies": {
